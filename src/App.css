@@ -1,0 +1,90 @@
+.Cardin{
+    display: flex;
+}
+.credit-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* padding: 0px 10px; */
+
+    width: 538px;
+    height: 312px;
+    padding: 25px;
+    border-radius: 15px;
+
+    color: white;
+
+    background-color: #124164;
+}
+
+.card-number {
+    
+    color: white;
+    font-family: Arial;
+    
+    font-size: 40px;
+    height: 40px;
+    padding-top: 20px;
+    font-weight: 600;
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+
+
+.credit-card__info {
+    display: flex;
+    justify-content: space-between;
+
+    /* font-family: 'Fjalla One', sans-serif; */
+
+    font-size: 19px;
+}
+
+.lab {
+    font-size: 11px;
+}
+
+.card-expiry {
+
+    margin-left: -106px;
+
+    font-weight: 600;
+    text-align: right;
+    height: 25px;
+    padding: 30px;
+}
+.type-card{
+ text-align: right;
+    /* display: flex;
+    justify-content: flex-end; */
+    font: 800 28px 'Open Sans', Arial, sans-serif;
+}
+
+
+.card-info{
+  display: flex;
+  justify-content: space-around;
+}
+
+.info-name{
+  font-size: 13px;
+  font-weight: bold;
+  padding: 50px;
+  margin-left: -50px;
+ margin-right: 39px  
+}
+
+.logo{
+    margin-top: -14px;
+}
+
+.forms{
+    display: flex;
+    flex-direction: column;
+    margin: auto 15px;
+  }
+
+  .in{
+  padding: 3px 32px;
+  /* border-radius: 3px; */
+  }
